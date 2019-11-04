@@ -20,6 +20,7 @@ jobs:
       - fedora-rawhide-x86_64
       - fedora-30-x86_64
       - fedora-29-x86_64
+      - centos-stream-x86_64
 
 - job: tests
   trigger: pull_request
@@ -28,3 +29,4 @@ jobs:
     - fedora-29-x86_64
     - fedora-30-x86_64
     - fedora-rawhide-x86_64
+    - centos-stream-x86_64
